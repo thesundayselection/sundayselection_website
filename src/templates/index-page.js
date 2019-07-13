@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
     style={{
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            fontSize: '32px',
+            fontSize: '20px',
             placeholder: "Your email",
             padding: '12px',
           }}
@@ -122,6 +122,8 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        videoSrcURL
+        videoTitle
         title
         image {
           childImageSharp {
@@ -130,8 +132,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        videoSrcURL
-        videoTitle
         heading
         subheading
         mainpitch {
