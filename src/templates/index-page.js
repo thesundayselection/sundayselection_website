@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import Video from "../components/video"
+import Video from "../components/Video"
 
 export const IndexPageTemplate = ({
   image,
