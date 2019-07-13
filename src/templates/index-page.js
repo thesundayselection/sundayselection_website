@@ -22,6 +22,7 @@ export const IndexPageTemplate = ({
       className="margin-top-0"
       style={{
         textAlign: 'center',
+        paddingTop: '120px',
         }}
     >
       <div
@@ -40,6 +41,7 @@ export const IndexPageTemplate = ({
             color: 'black',
             lineHeight: '1',
             padding: '0.25em',
+            fontSize: '92px !important',
           }}
         >
           {title}
