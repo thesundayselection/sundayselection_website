@@ -19,7 +19,6 @@ export const IndexPageTemplate = ({
       className="margin-top-0"
       style={{
         textAlign: 'center',
-        fontSize:
         }}
     >
       <div
