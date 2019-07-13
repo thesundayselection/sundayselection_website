@@ -75,7 +75,7 @@ export const IndexPageTemplate = ({
             padding: '12px',
           }}
     />
-    <button>Subscribe</button>
+    <button className="btn">Subscribe</button>
     </div>
   </div>
 )
