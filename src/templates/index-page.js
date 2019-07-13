@@ -36,12 +36,11 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold"
+          className="has-text-weight-bold h1font"
           style={{
             color: 'black',
             lineHeight: '1',
             padding: '0.25em',
-            fontSize: '92px !important',
           }}
         >
           {title}
