@@ -1,7 +1,6 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About
 ---
 ### Guardian article
 Transnational synths
