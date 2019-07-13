@@ -74,11 +74,16 @@ export const IndexPageTemplate = ({
     />
     &nbsp;&nbsp;
     <button className="btn">Subscribe</button>
-    </div>
-          <Video
+
+    <br />
+    <br />
+
+    <Video
           videoSrcURL={videoSrcURL}
           videoTitle={videoTitle}
         />
+    </div>
+
   </div>
 )
 
