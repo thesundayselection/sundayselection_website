@@ -127,6 +127,8 @@ export const pageQuery = graphql`
             }
           }
         }
+        videoSrcURL
+        videoTitle
         heading
         subheading
         mainpitch {
