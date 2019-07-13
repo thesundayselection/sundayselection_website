@@ -59,6 +59,13 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+    <input
+    style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            fontSize: '32px',
+          }}
+    />
   </div>
 )
 
