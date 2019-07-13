@@ -8,6 +8,6 @@ mainpitch:
   title: Vibes
   description: >
     Good ones.
-videoSourceURL: https://www.youtube.com/embed/dQw4w9WgXcQ
+videoSrcURL: https://www.youtube.com/embed/dQw4w9WgXcQ
 videoTitle: "Gatsby is Never Gonna Give You Up"
 ---
