@@ -75,6 +75,10 @@ export const IndexPageTemplate = ({
     &nbsp;&nbsp;
     <button className="btn">Subscribe</button>
     </div>
+          <Video
+          videoSrcURL={videoSrcURL}
+          videoTitle={videoTitle}
+        />
   </div>
 )
 
@@ -99,11 +103,9 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
+        videoSrcURL={frontmatter.videoSrcURL}
+        videoTitle={frontmatter.videoTitle}
       />
-      <Video
-          videoSrcURL={frontmatter.videoSrcURL}
-          videoTitle={frontmatter.videoTitle}
-        />
     </Layout>
   )
 }
