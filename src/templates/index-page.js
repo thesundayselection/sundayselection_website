@@ -97,6 +97,10 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
       />
+      <Video
+          videoSrcURL={frontmatter.videoSrcURL}
+          videoTitle={frontmatter.videoTitle}
+        />
     </Layout>
   )
 }
