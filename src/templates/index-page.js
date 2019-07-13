@@ -59,6 +59,14 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+    <div
+    style={{
+            paddingTop: '52px',
+            paddingBottom: '52px',
+            textAlign: 'center',
+          }}
+    />
+    >
     <input
     style={{
             boxShadow:
@@ -66,6 +74,7 @@ export const IndexPageTemplate = ({
             fontSize: '32px',
           }}
     />
+    </div>
   </div>
 )
 
