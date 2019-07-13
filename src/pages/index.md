@@ -3,7 +3,7 @@ templateKey: index-page
 title: The Sunday Selection
 image: /img/home-jumbotron.jpg
 heading: The Sunday Selection
-subheading: Bust a skank
+subheading: Get 7 songs delivered to your inbox every Sunday.
 mainpitch:
   title: Vibes
   description: >
