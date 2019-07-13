@@ -14,6 +14,8 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
+  videoSrcURL,
+  videoTitle,
 }) => (
   <div>
     <div
