@@ -36,7 +36,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold h1font"
+          className="has-text-weight-bold h1-font"
           style={{
             color: 'black',
             lineHeight: '1',
