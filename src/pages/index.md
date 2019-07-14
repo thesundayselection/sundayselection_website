@@ -28,6 +28,4 @@ main:
     image: /img/coffee.png
 ---
 
-# Look at this Video:
 
-`youtube:https://www.youtube.com/embed/2Xc9gXyf2G4`

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Video = ({ videoSrcURL, videoTitle, ...props }) => (
+const Video = ({ videos, gridItems, ...props }) => (
+    {gridItems.map(item => (
   <div className="video">
     <iframe
       src={videoSrcURL}
@@ -12,6 +13,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       allowFullScreen
     />
   </div>
+   ))}
 )
 
 export default Video

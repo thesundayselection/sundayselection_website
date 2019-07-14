@@ -14,7 +14,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  video,
+  videos,
 }) => (
   <div>
     <div
@@ -79,8 +79,7 @@ export const IndexPageTemplate = ({
     <br />
 
     <Video
-          videoSrcURL={video.videoSrcURL}
-          videoTitle={video.videoTitle}
+          gridItems={videos}
         />
 
     <button className="button">See previous issues</button>
@@ -96,6 +95,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+
 }
 
 const IndexPage = ({ data }) => {
@@ -138,10 +138,10 @@ export const pageQuery = graphql`
             }
           }
         }
-        video {
+        videos {
             videoTitle
             videoSrcURL
-        }
+            }
         heading
         subheading
         mainpitch {
