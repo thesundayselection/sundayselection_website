@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Video = ({ videos, gridItems }) => (
+const Video = ({ gridItems }) => (
     {gridItems.map(item => (
   <div className="video">
     <iframe
@@ -18,3 +18,5 @@ const Video = ({ videos, gridItems }) => (
 
 export default Video
 
+
+)
