@@ -4,13 +4,27 @@ title: The Sunday Selection
 image: /img/home-jumbotron.jpg
 heading: The Sunday Selection
 video:
-  videoSrcURL: https://www.youtube.com/embed/-xj9F4Sk9go
+  videoSrcURL: 'https://www.youtube.com/embed/6vHJGaGwfzk'
   videoTitle: ALL
 subheading: Get 7 songs delivered to your inbox every Sunday.
-videoSrcURL: https://www.youtube.com/embed/dQw4w9WgXcQ
-videoTitle: "Gatsby is Never Gonna Give You Up"
 mainpitch:
   title: Vibes
   description: Good ones.
+description: s
+intro:
+  heading: s
+  description: s
+main:
+  heading: s
+  description: s
+  image1:
+    alt: s
+    image: /img/apple-touch-icon.png
+  image2:
+    alt: s
+    image: /img/blog-index.jpg
+  image3:
+    alt: s
+    image: /img/coffee.png
 ---
 
