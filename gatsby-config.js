@@ -1,3 +1,5 @@
+//https://www.gatsbyjs.org/packages/gatsby-remark-embed-youtube/
+
 var proxy = require('http-proxy-middleware')
 
 module.exports = {
@@ -67,22 +69,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    {
-    resolve: "gatsby-transformer-remark",
-    options: {
-      plugins: [
-    'gatsby-remark-embed-youtube',
-    'gatsby-remark-responsive-iframe',
-      {
-        resolve: "gatsby-remark-embed-youtube",
-        options: {
-          width: 800,
-          height: 400
-        }
-      }
-      ]
-    }
-  },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
