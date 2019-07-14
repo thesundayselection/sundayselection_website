@@ -9,6 +9,8 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-remark-embed-youtube',
+    'gatsby-remark-responsive-iframe',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -67,6 +69,20 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+    resolve: "gatsby-transformer-remark",
+    options: {
+      plugins: [
+      {
+        resolve: "gatsby-remark-embed-youtube",
+        options: {
+          width: 800,
+          height: 400
+        }
+      }
+      ]
+    }
+  },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
