@@ -78,7 +78,6 @@ export const IndexPageTemplate = ({
     <br />
     <br />
 
-    <Video gridItems={videos} />
     <Link to="/archive">
     <button className="button">See previous issues</button>
     </Link>
@@ -94,7 +93,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  videos: PropTypes.object,
+  //videos: PropTypes.object,
 
 }
 
