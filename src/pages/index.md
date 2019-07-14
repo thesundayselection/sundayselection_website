@@ -4,8 +4,8 @@ title: The Sunday Selection
 image: /img/home-jumbotron.jpg
 heading: The Sunday Selection
 video:
-  videoSrcURL: 'https://www.youtube.com/embed/6vHJGaGwfzk'
-  videoTitle: ALL
+  videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+  videoTitle: DEKMANTEL
 subheading: Get 7 songs delivered to your inbox every Sunday.
 mainpitch:
   title: Vibes
