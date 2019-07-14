@@ -19,18 +19,14 @@ const Video = ({ gridItems }) => (
      </div>
 )
 
-/*Video.propTypes = {
+Video.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       videoSrcURL: PropTypes.string,
       videoTitle: PropTypes.string,
     })
   ),
-}*/
-
-// {gridItems.map(item => (
-
-    //  ))}
+}
 
 export default Video
 

@@ -9,9 +9,13 @@ mainpitch:
   description: Good ones.
 videos:
     - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+      videoTitle: TITLE 1
     - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+      videoTitle: TITLE 2
     - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+      videoTitle: TITLE 3
     - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+      videoTitle: TITLE 4
 description: s
 intro:
   heading: s

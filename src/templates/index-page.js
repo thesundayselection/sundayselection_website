@@ -80,22 +80,6 @@ export const IndexPageTemplate = ({
 
     <Video gridItems={videos} />
 
-    <div className="columns is-multiline">
-
-  <div className="video">
-    <iframe
-      src={videos.videoSrcURL}
-      //title={videos.videoTitle}
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      frameBorder="0"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allowFullScreen
-    />
-  </div>
-
-     </div>
-
     <button className="button">See previous issues</button>
     </div>
 
