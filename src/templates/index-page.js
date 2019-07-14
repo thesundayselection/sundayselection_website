@@ -9,8 +9,8 @@ import Video from "../components/Video"
 
 var datadata = {
     videos: [
-    {videoSrcURL:"https://www.youtube.com/embed/w5zUYz8PqUw", videoTitle:"500"};,
-    {videoSrcURL:"https://www.youtube.com/embed/YQHsXMglC9A", videoTitle:"600"};
+    {videoSrcURL:"https://www.youtube.com/embed/w5zUYz8PqUw", videoTitle:"500"},
+    {videoSrcURL:"https://www.youtube.com/embed/YQHsXMglC9A", videoTitle:"600"}
     ]
 };
 
