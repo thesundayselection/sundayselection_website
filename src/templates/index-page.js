@@ -7,13 +7,6 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Video from "../components/Video"
 
-var datadata = {
-    videos: [
-    {videoSrcURL:"https://www.youtube.com/embed/w5zUYz8PqUw", videoTitle:"500"},
-    {videoSrcURL:"https://www.youtube.com/embed/YQHsXMglC9A", videoTitle:"600"}
-    ]
-};
-
 export const IndexPageTemplate = ({
   image,
   title,
@@ -86,7 +79,7 @@ export const IndexPageTemplate = ({
     <br />
 
     <Video
-          gridItems={datadata}
+        gridItems={videos.videoSrcURL}
         />
 
     <button className="button">See previous issues</button>
@@ -102,6 +95,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  videos: PropTypes.object,
 
 }
 

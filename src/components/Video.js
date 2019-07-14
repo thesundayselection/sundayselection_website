@@ -7,7 +7,7 @@ const Video = ({ gridItems }) => (
   <div className="video">
     <iframe
       src={item.videoSrcURL}
-      title={item.videoTitle}
+      //title={item.videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
       webkitallowfullscreen="true"
