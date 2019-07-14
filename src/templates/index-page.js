@@ -14,8 +14,6 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  videoSrcURL,
-  videoTitle,
   video,
 }) => (
   <div>
@@ -81,10 +79,6 @@ export const IndexPageTemplate = ({
     <br />
 
     <Video
-          videoSrcURL={videoSrcURL}
-          videoTitle={videoTitle}
-        />
-    <Video
           videoSrcURL={video.videoSrcURL}
           videoTitle={video.videoTitle}
         />
@@ -116,8 +110,6 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        videoSrcURL={frontmatter.videoSrcURL}
-        videoTitle={frontmatter.videoTitle}
         video={frontmatter.video}
       />
     </Layout>
@@ -138,8 +130,6 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        videoSrcURL
-        videoTitle
         title
         image {
           childImageSharp {
