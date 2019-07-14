@@ -14,7 +14,6 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  videos,
 }) => (
   <div>
     <div
@@ -78,9 +77,7 @@ export const IndexPageTemplate = ({
     <br />
     <br />
 
-    <Video
-        gridItems={videos.videoSrcURL}
-        />
+    <Video />
 
     <button className="button">See previous issues</button>
     </div>
@@ -139,10 +136,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        videos {
-            videoTitle
-            videoSrcURL
-            }
         heading
         subheading
         mainpitch {

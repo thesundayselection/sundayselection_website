@@ -6,7 +6,7 @@ const Video = ({ gridItems }) => (
     {gridItems.map(item => (
   <div className="video">
     <iframe
-      src={item.videoSrcURL}
+      //src={item.videoSrcURL}
       //title={item.videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
@@ -19,14 +19,14 @@ const Video = ({ gridItems }) => (
      </div>
 )
 
-Video.propTypes = {
+/*Video.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       videoSrcURL: PropTypes.string,
       videoTitle: PropTypes.string,
     })
   ),
-}
+}*/
 
 export default Video
 
