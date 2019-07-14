@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Video = ({ gridItems }) => (
+    <div className="columns is-multiline">
     {gridItems.map(item => (
   <div className="video">
     <iframe
@@ -14,6 +15,7 @@ const Video = ({ gridItems }) => (
     />
   </div>
    ))}
+     </div>
 )
 
 export default Video
