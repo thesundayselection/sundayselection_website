@@ -83,6 +83,10 @@ export const IndexPageTemplate = ({
           videoSrcURL={videoSrcURL}
           videoTitle={videoTitle}
         />
+    <Video
+          videoSrcURL={video.videoSrcURL}
+          videoTitle={video.videoTitle}
+        />
 
     <button className="button">See previous issues</button>
     </div>
@@ -113,6 +117,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         videoSrcURL={frontmatter.videoSrcURL}
         videoTitle={frontmatter.videoTitle}
+        video={frontmatter.video}
       />
     </Layout>
   )
@@ -141,6 +146,10 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        video {
+            videoTitle
+            videoSrcURL
         }
         heading
         subheading
