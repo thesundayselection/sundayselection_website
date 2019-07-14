@@ -3,9 +3,6 @@ templateKey: index-page
 title: The Sunday Selection
 image: /img/home-jumbotron.jpg
 heading: The Sunday Selection
-videos:
-  videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-  videoTitle: DEKMANTEL
 subheading: Get 7 songs delivered to your inbox every Sunday.
 mainpitch:
   title: Vibes
@@ -26,6 +23,9 @@ main:
   image3:
     alt: s
     image: /img/coffee.png
+  videos:
+      videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+      videoTitle: DEKMANTEL
 ---
 
 
