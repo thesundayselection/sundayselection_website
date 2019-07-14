@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-responsive-iframe'
+        plugins: [
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -54,6 +54,12 @@ module.exports = {
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true //Optional: Disable insertion of <style> border: 0
             }
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
           },
           {
             resolve: 'gatsby-remark-images',
