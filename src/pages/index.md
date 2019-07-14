@@ -7,6 +7,8 @@ subheading: Get 7 songs delivered to your inbox every Sunday.
 mainpitch:
   title: Vibes
   description: Good ones.
+videos:
+    videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
 description: s
 intro:
   heading: s
@@ -23,8 +25,7 @@ main:
   image3:
     alt: s
     image: /img/coffee.png
-  videos:
-    videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+
 
 ---
 
