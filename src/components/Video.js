@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Video = ({ gridItems }) => (
     <div className="columns is-multiline">
-    {gridItems.map(item => (
+
   <div className="video">
     <iframe
       //src={item.videoSrcURL}
@@ -15,7 +15,7 @@ const Video = ({ gridItems }) => (
       allowFullScreen
     />
   </div>
-   ))}
+
      </div>
 )
 
@@ -27,6 +27,10 @@ const Video = ({ gridItems }) => (
     })
   ),
 }*/
+
+// {gridItems.map(item => (
+
+    //  ))}
 
 export default Video
 
