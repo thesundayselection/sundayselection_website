@@ -24,10 +24,8 @@ main:
     alt: s
     image: /img/coffee.png
   videos:
-      - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+    videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+
 ---
 
 
