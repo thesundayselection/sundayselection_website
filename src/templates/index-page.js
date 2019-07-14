@@ -83,6 +83,8 @@ export const IndexPageTemplate = ({
           videoSrcURL={videoSrcURL}
           videoTitle={videoTitle}
         />
+
+    <button className="button">See previous issues</button>
     </div>
 
   </div>
