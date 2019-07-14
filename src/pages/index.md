@@ -8,7 +8,10 @@ mainpitch:
   title: Vibes
   description: Good ones.
 videos:
-    videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
+    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
 description: s
 intro:
   heading: s

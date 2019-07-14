@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 
 const Video = ({ gridItems }) => (
     <div className="columns is-multiline">
-
+{gridItems.map(item => (
   <div className="video">
     <iframe
-      //src={item.videoSrcURL}
+      src={item.videoSrcURL}
       //title={item.videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
@@ -15,7 +15,7 @@ const Video = ({ gridItems }) => (
       allowFullScreen
     />
   </div>
-
+))}
      </div>
 )
 

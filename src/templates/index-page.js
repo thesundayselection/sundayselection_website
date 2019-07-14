@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
     <br />
     <br />
 
-    <Video />
+    <Video gridItems={videos} />
 
     <div className="columns is-multiline">
 
