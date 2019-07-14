@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Video = ({ videos, gridItems, ...props }) => (
+const Video = ({ videos, gridItems }) => (
     {gridItems.map(item => (
   <div className="video">
     <iframe
-      src={videoSrcURL}
-      title={videoTitle}
+      src={item.videoSrcURL}
+      title={item.videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
       webkitallowfullscreen="true"
@@ -17,3 +17,4 @@ const Video = ({ videos, gridItems, ...props }) => (
 )
 
 export default Video
+
