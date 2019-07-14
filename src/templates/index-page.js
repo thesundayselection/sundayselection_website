@@ -79,8 +79,9 @@ export const IndexPageTemplate = ({
     <br />
 
     <Video gridItems={videos} />
-
+    <Link to="/blog">
     <button className="button">See previous issues</button>
+    </Link>
     </div>
 
   </div>
