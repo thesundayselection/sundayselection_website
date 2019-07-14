@@ -21,4 +21,4 @@ const Video = ({ gridItems }) => (
 export default Video
 
 
-)
+
