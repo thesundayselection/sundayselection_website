@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-import Video from "../components/Video"
+//import Features from '../components/Features'
+//import BlogRoll from '../components/BlogRoll'
+//import Video from "../components/Video"
 
 export const IndexPageTemplate = ({
   image,
@@ -65,14 +65,14 @@ export const IndexPageTemplate = ({
     >
     <input
     style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            outline: '1px solid black',
             fontSize: '20px',
             placeholder: "Your email",
-            padding: '12px',
+            padding: '6px',
           }}
     />
-    &nbsp;&nbsp;
+    &nbsp;
+    &nbsp;
     <button className="btn">Subscribe</button>
 
     <br />
