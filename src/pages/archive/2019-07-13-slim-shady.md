@@ -8,7 +8,7 @@ description: >
 featuredpost: true
 featuredimage: /img/unnamed.jpg
 tags:
-  - SLIM SHADY
+  - Africa
 ---
 **Jay-U Experience - Enough Is Enough**
 
