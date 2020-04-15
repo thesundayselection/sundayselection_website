@@ -1,28 +1,19 @@
 ---
 templateKey: blog-post
-title: Slim shady
+title: 'Sunday Service #1'
 date: 2019-07-13T19:02:17.839Z
-description: Is doing it for himself
+description: >
+  This week’s Sunday Service is an afro-inspired journey featuring a selection
+  of timeless music from West Africa and beyond.
 featuredpost: true
-featuredimage: /img/apple-touch-icon.png
+featuredimage: /img/unnamed.jpg
 tags:
   - SLIM SHADY
 ---
-HI there
+**Jay-U Experience - Enough Is Enough**
 
-# Look at this Video:
- 
-`video: https://www.youtube.com/embed/2Xc9gXyf2G4`
-`youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4` 
-`youtube: 2Xc9gXyf2G4`
- 
-`vimeo: https://vimeo.com/5299404`
-`vimeo: 5299404`
- 
-`videoPress: https://videopress.com/v/kUJmAcSf`
-`videoPress: kUJmAcSf`
- 
-`twitch: https://player.twitch.tv/?channel=dakotaz`
-`twitch: https://player.twitch.tv/?autoplay=false&video=v273436948`
-`twitch: 273436948`
-`twitchLive: dakotaz`
+We start this week’s Sunday Service with a taste of the 1970s Nigerian funk-rock scene and the sounds of Jay-U Experience. His 1977 debut album, ‘Enough is Enough’, is a 5-track medley which jumps from leisurely reggae-pop to jazzy afrobeat to heavy psychedelic rock. The title track is a 6-minute jazz-funk fusion with a catchy guitar riff and healthy dose of saxophone solos.
+
+```
+https://www.youtube.com/watch?v=ijrTRsi9uBg
+```
