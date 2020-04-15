@@ -13,18 +13,3 @@ tags:
 **Jay-U Experience - Enough Is Enough**
 
 We start this week’s Sunday Service with a taste of the 1970s Nigerian funk-rock scene and the sounds of Jay-U Experience. His 1977 debut album, ‘Enough is Enough’, is a 5-track medley which jumps from leisurely reggae-pop to jazzy afrobeat to heavy psychedelic rock. The title track is a 6-minute jazz-funk fusion with a catchy guitar riff and healthy dose of saxophone solos.
-
-<Video
-videoSrcURL="https://www.youtube.com/embed/ijrTRsi9uBg"
-/>
-
-
-videos:
-    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      videoTitle: TITLE 1
-    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      videoTitle: TITLE 2
-    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      videoTitle: TITLE 3
-    - videoSrcURL: 'https://www.youtube.com/embed/w5zUYz8PqUw'
-      videoTitle: TITLE 4
