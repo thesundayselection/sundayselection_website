@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
     <br />
 
     <Link to="/archive">
-    <button className="button">See previous issues</button>
+    <button className="button">Random thing</button>
     </Link>
     </div>
 
