@@ -17,7 +17,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+<section style={{maxWidth: "800px", margin: "0 auto"}} className="section">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
