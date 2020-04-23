@@ -32,6 +32,7 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          background:'#bde7ee',
         }}
       >
         <h1
@@ -79,7 +80,7 @@ export const IndexPageTemplate = ({
     <br />
 
     <Link to="/archive">
-    <button className="button">Random thing</button>
+    <button className="button">View previous editions</button>
     </Link>
     </div>
 
