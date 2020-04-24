@@ -22,6 +22,7 @@ export const IndexPageTemplate = ({
       style={{
         textAlign: 'center',
         paddingTop: '120px',
+        background: '#f3b97b'
         }}
     >
       <div
@@ -32,7 +33,6 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
-          background:'#bde7ee',
         }}
       >
         <h1
@@ -62,6 +62,7 @@ export const IndexPageTemplate = ({
             paddingTop: '52px',
             paddingBottom: '52px',
             textAlign: 'center',
+            background: '#f3b97b'
           }}
     >
     <input
